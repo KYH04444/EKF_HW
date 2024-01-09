@@ -49,3 +49,5 @@ _uwb_sub.cpp 파일안에서 data날리는 방법(cnt 크게) 써야될듯 plot�
 _최대한 앵커, 태그 마주보게 하기, 태그가 앵커랑 마주보지 않으면 값 이상하게 나옴_
 
 ~~turtlebot3 자체 odom 사용할거면 시나리오 끝날때마다 bringup껐다켜주기~~
+
+~~nlink_parser 있어야됨 ws에서 multiple_turtlebots_estm이 nlink_parser보다 먼저 빌드 되면 오류남~~

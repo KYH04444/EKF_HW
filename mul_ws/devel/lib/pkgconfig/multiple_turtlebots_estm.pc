@@ -1,8 +1,0 @@
-prefix=/home/kim/mul_ws/devel
-
-Name: multiple_turtlebots_estm
-Description: Description of multiple_turtlebots_estm
-Version: 0.0.0
-Cflags: -I/home/kim/mul_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime

@@ -36,7 +36,7 @@
 
 - terminal5(Local_pc)
 >cd ~/mul_ws/uam_bag && rosbag record -a    
-    
+===    
         
 *Tips*
 

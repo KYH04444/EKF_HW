@@ -35,7 +35,7 @@
 >roslaunch multiple_turtlebots_estm turtlebot_kalman.launch 
 
 - terminal5(Local_pc)
->rosbag record -a    
+>cd ~/mul_ws/uam_bag && rosbag record -a    
     
         
 *Tips*

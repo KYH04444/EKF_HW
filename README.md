@@ -14,7 +14,7 @@
     export ROS_MASTER_URT=http://master_ip:11311
     export ROS_HOSTNAME=turtlebot_ip
 
-#### MASER PC
+#### MASTER PC
 
     export ROS_MASTER_URT=http://master_ip:11311
     export ROS_HOSTNAME=master_ip
@@ -35,7 +35,7 @@
 >roslaunch multiple_turtlebots_estm turtlebot_kalman.launch 
 
 - terminal5(Local_pc)
->cd ~/mul_ws/uam_bag && rosbag record -a    
+>rosbag record -a    
 
 ---------------
    

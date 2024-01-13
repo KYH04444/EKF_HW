@@ -1,18 +1,21 @@
 # EKF_HW
 
 ## Result
-### <x,y plot>
+### <X,Y plot>
 ![xy_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/3d6b10e0-6549-4713-8829-7817f540b729)
 
 
-### <x, plot>
-
+### <X plot>
 
 ![x_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/0b179ab7-bc8e-47e2-a2f2-7bf2cad2f61b)
 
-### <y, plot>
+### <Y plot>
 
 ![y_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/ff5a87a3-4b98-4298-bb3b-6d34e4939b00)
+
+### <Linear Velocity plot>
+
+![vel_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/7621dcdd-e913-419a-87d1-5914031279c0)
 
 ## SETUP
      Turtlebot1(Anchor): Robot1

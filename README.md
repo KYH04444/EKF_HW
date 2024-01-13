@@ -17,6 +17,13 @@
 
 ![vel_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/7621dcdd-e913-419a-87d1-5914031279c0)
 
+
+
+- pub cmd_vel = 0.1396m/s
+- Mean of GT linear velocity = 0.1370m/s
+- Mean of estimated linear velocity =  0.1797m/s
+- mean_vel - mean_gt_vel = 0.0428m/s
+
 ## SETUP
      Turtlebot1(Anchor): Robot1
         ssh gihun@192.168.x.x

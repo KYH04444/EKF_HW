@@ -93,9 +93,9 @@ plt.plot(gt_robot2_x, gt_robot2_y, marker='s', linestyle='-', color=color, label
 color = 'tab:green'
 plt.plot(gt_robot1_x, gt_robot1_y, marker='s', linestyle='-', color=color, label='gt_r1')
 
-plt.title('EKF')
-plt.xlabel('time')
-plt.ylabel('estimated x')
+plt.title('Estimation')
+plt.xlabel('axis X')
+plt.ylabel('axis Y')
 plt.grid(True)
 plt.legend()
 

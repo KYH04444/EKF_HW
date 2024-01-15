@@ -1,17 +1,20 @@
 # EKF_HW
 ## Result
 ### < X,Y plot >
-![xy_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/3d6b10e0-6549-4713-8829-7817f540b729)
-### < X plot>
+![xy_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/d3a8193e-9c89-45b7-bb66-575b90856b21)
+
+### < X plot >
 
 ###
 
 
-![x_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/0b179ab7-bc8e-47e2-a2f2-7bf2cad2f61b)
+![x_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/fa868073-f4fc-483d-be24-f0b132036326)
 
-### < Y plot>
+### < Y plot >
 
-![y_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/ff5a87a3-4b98-4298-bb3b-6d34e4939b00)
+
+![y_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/26ad6fef-6262-4a2c-81c8-42ea1881584f)
+
 
 ### < Linear Velocity plot >
 

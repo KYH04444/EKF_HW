@@ -19,7 +19,10 @@
 ### < Linear Velocity plot >
 
 ![vel_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/7621dcdd-e913-419a-87d1-5914031279c0)
-
+- pub cmd_vel = 0.1396m/s
+- Mean of GT linear velocity = 0.1370m/s
+- Mean of estimated linear velocity =  0.1797m/s
+- mean_vel - mean_gt_vel = 0.0428m/s
 ### < EKF-CeresSolver Xji plot >
 
 ![ekf_ceres_xji](https://github.com/KYH04444/EKF_HW/assets/121211187/e4ea534a-3867-422c-b540-e3363a183e27)
@@ -29,10 +32,7 @@
 ![ekf_ceres_yji](https://github.com/KYH04444/EKF_HW/assets/121211187/33c3efc3-6bde-4809-9957-69ea0ac8759d)
 
 
-- pub cmd_vel = 0.1396m/s
-- Mean of GT linear velocity = 0.1370m/s
-- Mean of estimated linear velocity =  0.1797m/s
-- mean_vel - mean_gt_vel = 0.0428m/s
+
 ---
 ## SETUP
      Turtlebot1(Anchor): Robot1

@@ -20,6 +20,13 @@
 
 ![vel_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/7621dcdd-e913-419a-87d1-5914031279c0)
 
+### < EKF-CeresSolver Xji plot >
+
+![ekf_ceres_xji](https://github.com/KYH04444/EKF_HW/assets/121211187/e4ea534a-3867-422c-b540-e3363a183e27)
+
+### < EKF-CeresSolver Yji plot >
+
+![ekf_ceres_yji](https://github.com/KYH04444/EKF_HW/assets/121211187/33c3efc3-6bde-4809-9957-69ea0ac8759d)
 
 
 - pub cmd_vel = 0.1396m/s

@@ -48,22 +48,22 @@ def EKF():
     for line in rosbag_y:
         esti_y.append(float(line.strip()))
         _esti_y.append(0)
-    downsample_ratio = int(9535 / 1127)
-    cnt = 0
+    # downsample_ratio = int(9535 / 1127)
+    # cnt = 0
 
     for line in robot1_gt:
-        if cnt % downsample_ratio == 0:
+        # if cnt % downsample_ratio == 0:
             x, y = map(float, line.strip().split('\t'))
             gt_robot1_x.append(x)
             gt_robot1_y.append(y)
-        cnt += 1
+        # cnt += 1
     cnt = 0 
     for line in robot2_gt:
-        if cnt % downsample_ratio == 0:
+        # if cnt % downsample_ratio == 0:
             x, y = map(float, line.strip().split('\t'))
             gt_robot2_x.append(x)
             gt_robot2_y.append(y)
-        cnt += 1    
+        # cnt += 1    
     # print(len(gt_robot1_x))
     # print(len(esti_x))
     min_length = min(len(gt_robot1_x), len(esti_x), len(esti_y))
@@ -76,40 +76,7 @@ def EKF():
 
         _esti_x[i] = m.cos(thetaI[i]*np.pi/180+np.pi/2) * esti_x[i] - m.sin(thetaI[i]*np.pi/180+m.pi/2) * esti_y[i]  + gt_robot1_x[i] 
         _esti_y[i] = m.sin(thetaI[i]*np.pi/180+np.pi/2) * esti_x[i] + m.cos(thetaI[i]*np.pi/180+m.pi/2) * esti_y[i] + gt_robot1_y[i]  
-        # if i == 1:
-            # print("0 degree")
-            # print(theta_cnt)
-            # print(theta_cnt+np.pi/2)
-            # print(np.cos(theta_cnt+np.pi/2))
-            # print(init_x)
-            # print(np.sin(theta_cnt+np.pi/2))
-            # print(esti_y[i])
-            # print(gt_robot1_x[i])
-            # print(theta_cnt)
-            # print(np.cos(theta_cnt+np.pi/2),np.sin(theta_cnt+np.pi/2))
-        #     print(gt_robot1_x[i], gt_robot1_y[i])
-        #     print(_esti_x[i],_esti_y[i])
-        #     print("---------------------")
-        # elif i == 1128/4:
-        #     print("90 degree")
-        #     print(theta_cnt)
-        #     print(np.cos(theta_cnt+np.pi/2),np.sin(theta_cnt+np.pi/2))
-        #     print(gt_robot1_x[i], gt_robot1_y[i])
-        #     print(_esti_x[i],_esti_y[i])
-        #     print("---------------------")
-        # elif i == 1126/2:
-        #     print("180 degree")
-        #     print(theta_cnt)
-        #     print(np.cos(theta_cnt+np.pi/2),np.sin(theta_cnt+np.pi/2))
-        #     print(gt_robot1_x[i], gt_robot1_y[i])
-        #     print(_esti_x[i],_esti_y[i])
-        #     print("---------------------")
-        # elif i == 1128*3/4:
-        #     print("270 degree")
-        #     print(theta_cnt)
-        #     print(np.cos(theta_cnt+np.pi/2),np.sin(theta_cnt+np.pi/2))
-        #     print(gt_robot1_x[i], gt_robot1_y[i])
-        #     print(_esti_x[i],_esti_y[i])
+
     color = 'tab:red'
     plt.plot(_esti_x, _esti_y, marker='s', linestyle='-', color=color, label='Estimated')
 

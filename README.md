@@ -1,28 +1,30 @@
 # EKF_HW
-## Result
+## RESULT | Estimated and Ground Truth data
 ### < X,Y plot >
-![xy_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/d3a8193e-9c89-45b7-bb66-575b90856b21)
+![xy](https://github.com/KYH04444/EKF_HW/assets/121211187/a79cdd19-f4db-4f57-a0b3-ca01b5f8acde)
 
-### < X plot >
-
-###
+### < X >
 
 
-![x_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/fa868073-f4fc-483d-be24-f0b132036326)
+![x](https://github.com/KYH04444/EKF_HW/assets/121211187/64cf1ff2-1783-4f19-804a-346910e9e27d)
 
-### < Y plot >
-
-
-![y_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/26ad6fef-6262-4a2c-81c8-42ea1881584f)
+### < Y >
 
 
-### < Linear Velocity plot >
+![y](https://github.com/KYH04444/EKF_HW/assets/121211187/2493db4e-edd9-4165-a142-e08100a9baae)
 
-![vel_plot](https://github.com/KYH04444/EKF_HW/assets/121211187/7621dcdd-e913-419a-87d1-5914031279c0)
-- pub cmd_vel = 0.1396m/s
-- Mean of GT linear velocity = 0.1370m/s
-- Mean of estimated linear velocity =  0.1797m/s
-- mean_vel - mean_gt_vel = 0.0428m/s
+### < Theta >
+
+![theta](https://github.com/KYH04444/EKF_HW/assets/121211187/2c13ba61-e63f-4a61-aa8e-46ba5ea5546b)
+
+### < Linear Velocity >
+
+![w](https://github.com/KYH04444/EKF_HW/assets/121211187/a6399271-c7e0-419d-8321-1f34ea8958b1)
+
+### < Angular Velocity >
+
+![v](https://github.com/KYH04444/EKF_HW/assets/121211187/ea92d3f3-169a-4804-961d-b2b54dbbc6c0)
+
 ### < EKF-CeresSolver Xji plot >
 
 ![ekf_ceres_xji](https://github.com/KYH04444/EKF_HW/assets/121211187/e4ea534a-3867-422c-b540-e3363a183e27)
